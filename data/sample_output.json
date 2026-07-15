@@ -1,0 +1,175 @@
+{
+  "test_name": "T001 - 成都4日美食自然游",
+  "input": {
+    "destination": "成都",
+    "days": 4,
+    "budget": 5000,
+    "travelers": 2,
+    "preferences": ["food", "nature", "culture"],
+    "accommodation_level": "standard",
+    "start_date": "2025-10-01"
+  },
+  "output": {
+    "destination": "成都",
+    "days": 4,
+    "start_date": "2025-10-01",
+    "summary": "本次旅行目的地: 成都\n行程天数: 4天\n出发日期: 2025-10-01\n计划游览景点: 11个\n城市简介: 四川省省会，被誉为'天府之国'，以悠闲的生活节奏、丰富的美食文化和可爱的大熊猫闻名于世。\n最佳季节: 春秋两季（3-6月，9-11月）\n当地美食: 火锅、串串香、担担面、麻婆豆腐、龙抄手、钟水饺、夫妻肺片\n\n每日区域安排:\n  Day 1 (2025-10-01): 武侯区\n  Day 2 (2025-10-02): 都江堰市\n  Day 3 (2025-10-03): 青羊区\n  Day 4 (2025-10-04): 锦江区",
+    "daily_plans": [
+      {
+        "day": 1,
+        "date": "2025-10-01",
+        "district": "武侯区",
+        "morning": [
+          {
+            "name": "武侯祠",
+            "category": "culture",
+            "play_time": 2.0,
+            "ticket_price": 50,
+            "rating": 4,
+            "description": "中国唯一的君臣合祀祠庙，纪念诸葛亮和刘备的三国文化圣地。",
+            "tips": "与锦里相邻，可安排在一起游览；建议请讲解或租语音导览。"
+          }
+        ],
+        "afternoon": [],
+        "evening": [
+          {
+            "name": "锦里古街",
+            "category": "culture",
+            "play_time": 2.0,
+            "ticket_price": 0,
+            "rating": 4,
+            "description": "成都最古老的商业街之一，集美食、文化、购物于一体的步行街。",
+            "tips": "傍晚时分最美，灯笼亮起后氛围极佳；小吃价格略高，建议浅尝辄止。"
+          }
+        ],
+        "meals": {
+          "breakfast": "钢管厂五区小郡肝串串",
+          "lunch": "陈麻婆豆腐",
+          "dinner": "马旺子川小馆",
+          "notes": "串串香、小郡肝"
+        },
+        "total_cost": 50,
+        "total_time": 4.0
+      },
+      {
+        "day": 2,
+        "date": "2025-10-02",
+        "district": "都江堰市",
+        "morning": [
+          {
+            "name": "都江堰",
+            "category": "culture",
+            "play_time": 4.0,
+            "ticket_price": 80,
+            "rating": 5,
+            "description": "世界文化遗产，两千多年历史的水利工程，至今仍在发挥作用。",
+            "tips": "距成都市区约1小时车程，建议安排半天以上；可结合青城山一日游。"
+          }
+        ],
+        "afternoon": [
+          {
+            "name": "青城山",
+            "category": "nature",
+            "play_time": 3.0,
+            "ticket_price": 80,
+            "rating": 5,
+            "description": "中国道教四大名山之一，以'青城天下幽'著称，自然风光秀美。",
+            "tips": "前山道教文化为主，后山自然风光为主；建议穿运动鞋，带足水。"
+          }
+        ],
+        "evening": [],
+        "meals": {
+          "breakfast": "钢管厂五区小郡肝串串",
+          "lunch": "陈麻婆豆腐",
+          "dinner": "马旺子川小馆",
+          "notes": "串串香、小郡肝"
+        },
+        "total_cost": 160,
+        "total_time": 7.0
+      },
+      {
+        "day": 3,
+        "date": "2025-10-03",
+        "district": "青羊区",
+        "morning": [
+          {
+            "name": "杜甫草堂",
+            "category": "culture",
+            "play_time": 2.0,
+            "ticket_price": 50,
+            "rating": 4,
+            "description": "唐代大诗人杜甫流寓成都时的故居，现为中国文学史上的圣地。",
+            "tips": "园林清幽，适合慢慢游览；与浣花溪公园相邻，可一起游览。"
+          }
+        ],
+        "afternoon": [
+          {
+            "name": "宽窄巷子",
+            "category": "culture",
+            "play_time": 2.5,
+            "ticket_price": 0,
+            "rating": 4,
+            "description": "由宽巷子、窄巷子、井巷子三条平行巷子组成的清朝古街区，体验老成都生活。",
+            "tips": "可体验掏耳朵、喝盖碗茶；周末人多，工作日体验更佳。"
+          }
+        ],
+        "evening": [
+          {
+            "name": "人民公园",
+            "category": "relaxation",
+            "play_time": 2.0,
+            "ticket_price": 0,
+            "rating": 4,
+            "description": "成都市民休闲生活的缩影，可体验喝茶、掏耳朵、看变脸等地道成都生活。",
+            "tips": "鹤鸣茶社是必去打卡点，10元一杯茶可以坐一下午。"
+          }
+        ],
+        "meals": {
+          "breakfast": "贺水饺",
+          "lunch": "陈麻婆豆腐",
+          "dinner": "马旺子川小馆",
+          "notes": "红油水饺、蒜泥白肉"
+        },
+        "total_cost": 50,
+        "total_time": 6.5
+      },
+      {
+        "day": 4,
+        "date": "2025-10-04",
+        "district": "锦江区",
+        "morning": [
+          {
+            "name": "春熙路",
+            "category": "shopping",
+            "play_time": 3.0,
+            "ticket_price": 0,
+            "rating": 4,
+            "description": "成都最繁华的商业步行街，集购物、美食、娱乐于一体的城市地标。",
+            "tips": "IFS楼顶的爬墙熊猫是必拍打卡点；太古里就在旁边，可以一并逛。"
+          }
+        ],
+        "afternoon": [],
+        "evening": [
+          {
+            "name": "太古里",
+            "category": "shopping",
+            "play_time": 2.5,
+            "ticket_price": 0,
+            "rating": 4,
+            "description": "成都最潮的开放式商业街区，融合传统建筑与现代时尚。",
+            "tips": "夜景很美，适合拍照；大慈寺就在其中，值得一访。"
+          }
+        ],
+        "meals": {
+          "breakfast": "蜀大侠火锅",
+          "lunch": "龙抄手总店",
+          "dinner": "马旺子川小馆",
+          "notes": "牛油火锅、麻辣牛肉"
+        },
+        "total_cost": 0,
+        "total_time": 5.5
+      }
+    ],
+    "total_budget": 520
+  }
+}

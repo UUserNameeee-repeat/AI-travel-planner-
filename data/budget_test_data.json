@@ -1,0 +1,76 @@
+{
+  "budget_test_cases": [
+    {
+      "test_id": "B001",
+      "name": "成都4日5000元2人舒适游",
+      "input": {
+        "destination": "成都",
+        "days": 4,
+        "total_budget": 5000,
+        "travelers": 2,
+        "accommodation_level": "standard"
+      },
+      "expected": {
+        "per_person_daily": 625,
+        "budget_level": "comfortable",
+        "accommodation_range": [1200, 1800],
+        "food_range": [1000, 1500],
+        "total_should_equal": 5000
+      }
+    },
+    {
+      "test_id": "B002",
+      "name": "北京3日3000元1人经济游",
+      "input": {
+        "destination": "北京",
+        "days": 3,
+        "total_budget": 3000,
+        "travelers": 1,
+        "accommodation_level": "budget"
+      },
+      "expected": {
+        "per_person_daily": 1000,
+        "budget_level": "comfortable",
+        "accommodation_range": [800, 1200],
+        "food_range": [600, 900],
+        "total_should_equal": 3000
+      }
+    },
+    {
+      "test_id": "B003",
+      "name": "杭州5日20000元2人豪华游",
+      "input": {
+        "destination": "杭州",
+        "days": 5,
+        "total_budget": 20000,
+        "travelers": 2,
+        "accommodation_level": "luxury"
+      },
+      "expected": {
+        "per_person_daily": 2000,
+        "budget_level": "luxury",
+        "accommodation_range": [6000, 8000],
+        "food_range": [3500, 4500],
+        "total_should_equal": 20000
+      }
+    },
+    {
+      "test_id": "B004",
+      "name": "成都1日500元1人紧凑游",
+      "input": {
+        "destination": "成都",
+        "days": 1,
+        "total_budget": 500,
+        "travelers": 1,
+        "accommodation_level": "budget"
+      },
+      "expected": {
+        "per_person_daily": 500,
+        "budget_level": "tight",
+        "accommodation_range": [150, 200],
+        "food_range": [100, 150],
+        "total_should_equal": 500
+      }
+    }
+  ]
+}

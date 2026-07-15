@@ -1,0 +1,106 @@
+[
+  {
+    "test_id": "T001",
+    "test_name": "成都4日美食自然游",
+    "input": {
+      "destination": "成都",
+      "days": 4,
+      "budget": 5000,
+      "travelers": 2,
+      "preferences": ["food", "nature", "culture"],
+      "accommodation_level": "standard",
+      "start_date": "2025-10-01"
+    },
+    "expected_output": {
+      "destination": "成都",
+      "days": 4,
+      "daily_plans_count": 4,
+      "should_include": ["大熊猫繁育研究基地", "锦里古街", "武侯祠"],
+      "budget_range": [3000, 6000],
+      "max_attractions_per_day": 4
+    }
+  },
+  {
+    "test_id": "T002",
+    "test_name": "北京3日文化游",
+    "input": {
+      "destination": "北京",
+      "days": 3,
+      "budget": 6000,
+      "travelers": 1,
+      "preferences": ["culture", "history", "photography"],
+      "accommodation_level": "standard",
+      "start_date": "2025-09-15"
+    },
+    "expected_output": {
+      "destination": "北京",
+      "days": 3,
+      "daily_plans_count": 3,
+      "should_include": ["故宫博物院", "长城（八达岭）"],
+      "budget_range": [4000, 8000],
+      "max_attractions_per_day": 4
+    }
+  },
+  {
+    "test_id": "T003",
+    "test_name": "杭州2日休闲游",
+    "input": {
+      "destination": "杭州",
+      "days": 2,
+      "budget": 3000,
+      "travelers": 2,
+      "preferences": ["nature", "relaxation", "food"],
+      "accommodation_level": "standard",
+      "start_date": "2025-04-10"
+    },
+    "expected_output": {
+      "destination": "杭州",
+      "days": 2,
+      "daily_plans_count": 2,
+      "should_include": ["西湖"],
+      "budget_range": [2000, 4000],
+      "max_attractions_per_day": 4
+    }
+  },
+  {
+    "test_id": "T004",
+    "test_name": "成都1日经济游",
+    "input": {
+      "destination": "成都",
+      "days": 1,
+      "budget": 500,
+      "travelers": 1,
+      "preferences": ["food", "culture"],
+      "accommodation_level": "budget",
+      "start_date": "2025-11-20"
+    },
+    "expected_output": {
+      "destination": "成都",
+      "days": 1,
+      "daily_plans_count": 1,
+      "budget_range": [300, 800],
+      "max_attractions_per_day": 4
+    }
+  },
+  {
+    "test_id": "T005",
+    "test_name": "北京5日豪华游",
+    "input": {
+      "destination": "北京",
+      "days": 5,
+      "budget": 20000,
+      "travelers": 2,
+      "preferences": ["culture", "shopping", "food", "nightlife"],
+      "accommodation_level": "luxury",
+      "start_date": "2025-08-01"
+    },
+    "expected_output": {
+      "destination": "北京",
+      "days": 5,
+      "daily_plans_count": 5,
+      "should_include": ["故宫博物院", "鸟巢/水立方", "798艺术区"],
+      "budget_range": [15000, 25000],
+      "max_attractions_per_day": 4
+    }
+  }
+]

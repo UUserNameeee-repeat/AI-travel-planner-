@@ -1,0 +1,46 @@
+{
+  "weather_test_cases": [
+    {
+      "test_id": "W001",
+      "name": "成都10月天气查询",
+      "input": { "city": "成都", "month": 10 },
+      "expected": {
+        "temp_min": 13,
+        "temp_max": 20,
+        "season": "秋季",
+        "rain_prob_range": [0.3, 0.4]
+      }
+    },
+    {
+      "test_id": "W002",
+      "name": "北京1月天气查询",
+      "input": { "city": "北京", "month": 1 },
+      "expected": {
+        "temp_min": -9,
+        "temp_max": 2,
+        "season": "冬季",
+        "rain_prob_range": [0.0, 0.1]
+      }
+    },
+    {
+      "test_id": "W003",
+      "name": "杭州7月天气查询",
+      "input": { "city": "杭州", "month": 7 },
+      "expected": {
+        "temp_min": 25,
+        "temp_max": 33,
+        "season": "夏季",
+        "rain_prob_range": [0.2, 0.4]
+      }
+    },
+    {
+      "test_id": "W004",
+      "name": "未支持城市使用默认天气",
+      "input": { "city": "未知城市", "month": 6 },
+      "expected": {
+        "season": "夏季",
+        "should_use_default": true
+      }
+    }
+  ]
+}

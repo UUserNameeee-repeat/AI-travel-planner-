@@ -1,0 +1,111 @@
+{
+  "description": "用户兴趣偏好标签映射表 - 将用户自然语言偏好映射到系统标签",
+
+  "preference_tags": {
+    "culture": {
+      "name": "历史文化",
+      "aliases": ["历史", "文化", "古迹", "博物馆", "古建筑", "人文", "历史"],
+      "description": "博物馆、古迹、历史建筑、宗教场所、文化遗址",
+      "match_keywords": ["博物馆", "古迹", "遗址", "寺庙", "祠堂", "故居", "纪念馆", "古城"]
+    },
+    "nature": {
+      "name": "自然风光",
+      "aliases": ["自然", "风景", "山水", "公园", "湖", "山", "自然"],
+      "description": "山川、湖泊、公园、自然保护区、田园风光",
+      "match_keywords": ["公园", "山", "湖", "湿地", "瀑布", "峡谷", "草原", "海滩"]
+    },
+    "food": {
+      "name": "美食探索",
+      "aliases": ["美食", "吃", "小吃", "餐饮", "餐厅", "吃货", "美味"],
+      "description": "当地特色菜、街头小吃、知名餐厅、美食街",
+      "match_keywords": ["美食", "小吃", "餐厅", "火锅", "特色菜", "老字号", "美食街"]
+    },
+    "shopping": {
+      "name": "购物",
+      "aliases": ["购物", "逛街", "买东西", "商场", "买买买", "血拼"],
+      "description": "商场、步行街、特色市集、免税店",
+      "match_keywords": ["商场", "步行街", "市集", "免税店", "商业街", "奥特莱斯"]
+    },
+    "adventure": {
+      "name": "冒险户外",
+      "aliases": ["冒险", "户外", "徒步", "攀岩", "运动", "刺激", "挑战"],
+      "description": "徒步、攀岩、漂流、潜水、滑翔伞等户外运动",
+      "match_keywords": ["徒步", "攀岩", "漂流", "潜水", "滑翔", "骑行", "探险"]
+    },
+    "nightlife": {
+      "name": "夜生活",
+      "aliases": ["夜生活", "酒吧", "夜市", "夜景", "晚上", "夜店"],
+      "description": "酒吧、夜市、夜景、演出、音乐现场",
+      "match_keywords": ["酒吧", "夜市", "夜景", "演出", "livehouse", "音乐"]
+    },
+    "photography": {
+      "name": "摄影打卡",
+      "aliases": ["摄影", "拍照", "打卡", "网红", "ins", "出片"],
+      "description": "网红打卡点、地标建筑、观景台、特色街区",
+      "match_keywords": ["网红", "打卡", "地标", "观景台", "拍照", "出片"]
+    },
+    "relaxation": {
+      "name": "休闲放松",
+      "aliases": ["休闲", "放松", "慢节奏", "度假", "养生", "佛系"],
+      "description": "温泉、SPA、咖啡馆、公园、慢生活体验",
+      "match_keywords": ["温泉", "SPA", "咖啡", "茶馆", "度假", "休闲"]
+    },
+    "family": {
+      "name": "亲子家庭",
+      "aliases": ["亲子", "家庭", "小孩", "孩子", "带娃", "全家"],
+      "description": "主题乐园、动物园、海洋馆、适合儿童的景点",
+      "match_keywords": ["乐园", "动物园", "海洋馆", "亲子", "儿童", "游乐园"]
+    }
+  },
+
+  "preference_combinations": {
+    "文艺青年": ["culture", "photography", "relaxation"],
+    "吃货达人": ["food", "nightlife", "shopping"],
+    "户外达人": ["adventure", "nature", "photography"],
+    "亲子游": ["family", "nature", "relaxation"],
+    "闺蜜游": ["photography", "shopping", "food", "nightlife"],
+    "情侣游": ["romantic", "food", "photography", "relaxation"],
+    "银发游": ["culture", "nature", "relaxation"],
+    "深度文化游": ["culture", "history", "food"],
+    "打卡快闪游": ["photography", "shopping", "nightlife"]
+  },
+
+  "time_preferences": {
+    "early_bird": {
+      "description": "早起型，喜欢清晨出发",
+      "start_time": "07:00",
+      "preferred_activities": ["nature", "photography", "culture"]
+    },
+    "normal": {
+      "description": "正常作息",
+      "start_time": "09:00",
+      "preferred_activities": []
+    },
+    "night_owl": {
+      "description": "夜猫子型，晚起晚睡",
+      "start_time": "10:30",
+      "preferred_activities": ["nightlife", "food", "shopping"]
+    }
+  },
+
+  "pace_preferences": {
+    "relaxed": {
+      "name": "悠闲型",
+      "attractions_per_day": 2,
+      "max_hours": 6,
+      "description": "每天2个景点，不赶路，享受慢旅行"
+    },
+    "balanced": {
+      "name": "均衡型",
+      "attractions_per_day": 3,
+      "max_hours": 8,
+      "description": "每天3个景点，适度安排，劳逸结合"
+    },
+    "intensive": {
+      "name": "紧凑型",
+      "attractions_per_day": 4,
+      "max_hours": 10,
+      "description": "每天4个景点，充分利用时间"
+    }
+  }
+}

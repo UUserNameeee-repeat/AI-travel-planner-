@@ -1,0 +1,494 @@
+{
+  "成都": {
+    "city_info": {
+      "name": "成都",
+      "description": "四川省省会，被誉为'天府之国'，以悠闲的生活节奏、丰富的美食文化和可爱的大熊猫闻名于世。",
+      "best_season": "春秋两季（3-6月，9-11月）",
+      "local_food": "火锅、串串香、担担面、麻婆豆腐、龙抄手、钟水饺、夫妻肺片",
+      "avg_daily_cost": 400,
+      "must_bring": "舒适的步行鞋、雨伞、肠胃药"
+    },
+    "attractions": [
+      {
+        "name": "成都大熊猫繁育研究基地",
+        "category": "nature",
+        "district": "成华区",
+        "play_time": 3.5,
+        "ticket_price": 55,
+        "rating": 5,
+        "tags": ["nature", "photography", "family"],
+        "best_time": "morning",
+        "description": "世界最大的大熊猫繁育研究基地，可近距离观赏大熊猫的生活状态。",
+        "tips": "建议早上8点前到达，熊猫上午最活跃；暑期人多为患，建议提前网上购票。"
+      },
+      {
+        "name": "锦里古街",
+        "category": "culture",
+        "district": "武侯区",
+        "play_time": 2.0,
+        "ticket_price": 0,
+        "rating": 4,
+        "tags": ["culture", "food", "shopping", "nightlife"],
+        "best_time": "evening",
+        "description": "成都最古老的商业街之一，集美食、文化、购物于一体的步行街。",
+        "tips": "傍晚时分最美，灯笼亮起后氛围极佳；小吃价格略高，建议浅尝辄止。"
+      },
+      {
+        "name": "武侯祠",
+        "category": "culture",
+        "district": "武侯区",
+        "play_time": 2.0,
+        "ticket_price": 50,
+        "rating": 4,
+        "tags": ["culture", "history"],
+        "best_time": "morning",
+        "description": "中国唯一的君臣合祀祠庙，纪念诸葛亮和刘备的三国文化圣地。",
+        "tips": "与锦里相邻，可安排在一起游览；建议请讲解或租语音导览。"
+      },
+      {
+        "name": "宽窄巷子",
+        "category": "culture",
+        "district": "青羊区",
+        "play_time": 2.5,
+        "ticket_price": 0,
+        "rating": 4,
+        "tags": ["culture", "food", "shopping", "photography"],
+        "best_time": "afternoon",
+        "description": "由宽巷子、窄巷子、井巷子三条平行巷子组成的清朝古街区，体验老成都生活。",
+        "tips": "可体验掏耳朵、喝盖碗茶；周末人多，工作日体验更佳。"
+      },
+      {
+        "name": "都江堰",
+        "category": "culture",
+        "district": "都江堰市",
+        "play_time": 4.0,
+        "ticket_price": 80,
+        "rating": 5,
+        "tags": ["culture", "nature", "history"],
+        "best_time": "morning",
+        "description": "世界文化遗产，两千多年历史的水利工程，至今仍在发挥作用。",
+        "tips": "距成都市区约1小时车程，建议安排半天以上；可结合青城山一日游。"
+      },
+      {
+        "name": "青城山",
+        "category": "nature",
+        "district": "都江堰市",
+        "play_time": 4.5,
+        "ticket_price": 80,
+        "rating": 5,
+        "tags": ["nature", "culture", "adventure"],
+        "best_time": "morning",
+        "description": "中国道教四大名山之一，以'青城天下幽'著称，自然风光秀美。",
+        "tips": "前山道教文化为主，后山自然风光为主；建议穿运动鞋，带足水。"
+      },
+      {
+        "name": "人民公园",
+        "category": "relaxation",
+        "district": "青羊区",
+        "play_time": 2.0,
+        "ticket_price": 0,
+        "rating": 4,
+        "tags": ["relaxation", "culture", "food"],
+        "best_time": "afternoon",
+        "description": "成都市民休闲生活的缩影，可体验喝茶、掏耳朵、看变脸等地道成都生活。",
+        "tips": "鹤鸣茶社是必去打卡点，10元一杯茶可以坐一下午。"
+      },
+      {
+        "name": "春熙路",
+        "category": "shopping",
+        "district": "锦江区",
+        "play_time": 3.0,
+        "ticket_price": 0,
+        "rating": 4,
+        "tags": ["shopping", "food", "nightlife"],
+        "best_time": "afternoon",
+        "description": "成都最繁华的商业步行街，集购物、美食、娱乐于一体的城市地标。",
+        "tips": "IFS楼顶的爬墙熊猫是必拍打卡点；太古里就在旁边，可以一并逛。"
+      },
+      {
+        "name": "杜甫草堂",
+        "category": "culture",
+        "district": "青羊区",
+        "play_time": 2.0,
+        "ticket_price": 50,
+        "rating": 4,
+        "tags": ["culture", "history", "relaxation"],
+        "best_time": "morning",
+        "description": "唐代大诗人杜甫流寓成都时的故居，现为中国文学史上的圣地。",
+        "tips": "园林清幽，适合慢慢游览；与浣花溪公园相邻，可一起游览。"
+      },
+      {
+        "name": "太古里",
+        "category": "shopping",
+        "district": "锦江区",
+        "play_time": 2.5,
+        "ticket_price": 0,
+        "rating": 4,
+        "tags": ["shopping", "food", "photography", "nightlife"],
+        "best_time": "evening",
+        "description": "成都最潮的开放式商业街区，融合传统建筑与现代时尚。",
+        "tips": "夜景很美，适合拍照；大慈寺就在其中，值得一访。"
+      },
+      {
+        "name": "九眼桥",
+        "category": "nightlife",
+        "district": "武侯区",
+        "play_time": 2.0,
+        "ticket_price": 0,
+        "rating": 4,
+        "tags": ["nightlife", "food"],
+        "best_time": "evening",
+        "description": "成都最著名的酒吧一条街，夜晚灯火辉煌，体验成都夜生活。",
+        "tips": "适合晚上去，可以沿着锦江散步；酒吧消费偏高，可选择清吧。"
+      },
+      {
+        "name": "文殊院",
+        "category": "culture",
+        "district": "青羊区",
+        "play_time": 1.5,
+        "ticket_price": 0,
+        "rating": 4,
+        "tags": ["culture", "relaxation", "food"],
+        "best_time": "morning",
+        "description": "成都历史最悠久的佛教寺院，院内可品尝素斋和盖碗茶。",
+        "tips": "文殊院旁的宫廷糕点铺很有名，经常排队。"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "蜀大侠火锅",
+        "district": "锦江区",
+        "category": "food",
+        "rating": 5,
+        "avg_price": 80,
+        "specialty": "牛油火锅、麻辣牛肉",
+        "tips": "成都老牌火锅，建议提前排队"
+      },
+      {
+        "name": "陈麻婆豆腐",
+        "district": "青羊区",
+        "category": "food",
+        "rating": 4,
+        "avg_price": 50,
+        "specialty": "麻婆豆腐、回锅肉",
+        "tips": "百年老店，川菜经典"
+      },
+      {
+        "name": "龙抄手总店",
+        "district": "锦江区",
+        "category": "food",
+        "rating": 4,
+        "avg_price": 40,
+        "specialty": "红油抄手、钟水饺",
+        "tips": "成都名小吃一站式体验"
+      },
+      {
+        "name": "马旺子川小馆",
+        "district": "锦江区",
+        "category": "food",
+        "rating": 5,
+        "avg_price": 70,
+        "specialty": "毛血旺、川北凉粉",
+        "tips": "米其林推荐川菜馆"
+      },
+      {
+        "name": "贺水饺",
+        "district": "青羊区",
+        "category": "food",
+        "rating": 4,
+        "avg_price": 25,
+        "specialty": "红油水饺、蒜泥白肉",
+        "tips": "老字号苍蝇馆子，味道地道"
+      },
+      {
+        "name": "钢管厂五区小郡肝串串",
+        "district": "武侯区",
+        "category": "food",
+        "rating": 4,
+        "avg_price": 60,
+        "specialty": "串串香、小郡肝",
+        "tips": "成都串串香代表，性价比高"
+      }
+    ]
+  },
+  "北京": {
+    "city_info": {
+      "name": "北京",
+      "description": "中国首都，拥有三千多年建城史和八百多年建都史，是中国的政治、文化中心。",
+      "best_season": "秋季（9-11月），天高气爽",
+      "local_food": "北京烤鸭、炸酱面、豆汁、卤煮、爆肚、驴打滚",
+      "avg_daily_cost": 500,
+      "must_bring": "舒适的步行鞋、防晒霜（夏季）、口罩（春季沙尘）"
+    },
+    "attractions": [
+      {
+        "name": "故宫博物院",
+        "category": "culture",
+        "district": "东城区",
+        "play_time": 4.0,
+        "ticket_price": 60,
+        "rating": 5,
+        "tags": ["culture", "history", "photography"],
+        "best_time": "morning",
+        "description": "世界上现存规模最大、保存最完整的木质结构古建筑群，明清两代皇宫。",
+        "tips": "必须提前网上预约购票；建议从午门进，神武门出，中轴线游览。"
+      },
+      {
+        "name": "天安门广场",
+        "category": "culture",
+        "district": "东城区",
+        "play_time": 1.5,
+        "ticket_price": 0,
+        "rating": 5,
+        "tags": ["culture", "photography"],
+        "best_time": "morning",
+        "description": "世界上最大的城市广场，中国的象征性建筑。",
+        "tips": "看升旗需早起；需携带身份证过安检。"
+      },
+      {
+        "name": "长城（八达岭）",
+        "category": "nature",
+        "district": "延庆区",
+        "play_time": 5.0,
+        "ticket_price": 40,
+        "rating": 5,
+        "tags": ["nature", "adventure", "history", "photography"],
+        "best_time": "morning",
+        "description": "万里长城最具代表性的段落，'不到长城非好汉'。",
+        "tips": "距市区约1.5小时车程；建议早出发避开人流；穿运动鞋。"
+      },
+      {
+        "name": "颐和园",
+        "category": "nature",
+        "district": "海淀区",
+        "play_time": 3.5,
+        "ticket_price": 30,
+        "rating": 5,
+        "tags": ["nature", "culture", "relaxation"],
+        "best_time": "morning",
+        "description": "中国现存规模最大的皇家园林，世界文化遗产。",
+        "tips": "园区很大，建议坐游船游昆明湖；预留充足时间。"
+      },
+      {
+        "name": "天坛公园",
+        "category": "culture",
+        "district": "东城区",
+        "play_time": 2.5,
+        "ticket_price": 15,
+        "rating": 5,
+        "tags": ["culture", "history", "relaxation"],
+        "best_time": "morning",
+        "description": "明清两代皇帝祭天的场所，建筑设计精妙绝伦。",
+        "tips": "祈年殿是核心景观；早晨可看到市民晨练。"
+      },
+      {
+        "name": "南锣鼓巷",
+        "category": "culture",
+        "district": "东城区",
+        "play_time": 2.0,
+        "ticket_price": 0,
+        "rating": 4,
+        "tags": ["culture", "food", "shopping"],
+        "best_time": "afternoon",
+        "description": "北京最古老的胡同之一，集文艺小店、特色小吃于一体的步行街。",
+        "tips": "周末人很多；可顺便逛旁边的什刹海。"
+      },
+      {
+        "name": "鸟巢/水立方",
+        "category": "photography",
+        "district": "朝阳区",
+        "play_time": 2.0,
+        "ticket_price": 50,
+        "rating": 4,
+        "tags": ["photography", "culture"],
+        "best_time": "evening",
+        "description": "2008年北京奥运会标志性场馆，夜晚灯光秀很美。",
+        "tips": "夜景比白天更好看；可在奥林匹克公园免费外观。"
+      },
+      {
+        "name": "798艺术区",
+        "category": "culture",
+        "district": "朝阳区",
+        "play_time": 3.0,
+        "ticket_price": 0,
+        "rating": 4,
+        "tags": ["culture", "photography", "shopping"],
+        "best_time": "afternoon",
+        "description": "由老旧工厂改造的当代艺术区，汇集画廊、咖啡馆、设计店。",
+        "tips": "大部分展览免费；周一部分画廊闭馆。"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "全聚德烤鸭",
+        "district": "东城区",
+        "category": "food",
+        "rating": 4,
+        "avg_price": 150,
+        "specialty": "北京烤鸭",
+        "tips": "百年老字号，前门店最正宗"
+      },
+      {
+        "name": "四季民福烤鸭",
+        "district": "东城区",
+        "category": "food",
+        "rating": 5,
+        "avg_price": 120,
+        "specialty": "烤鸭、京酱肉丝",
+        "tips": "性价比高，故宫店可看景"
+      },
+      {
+        "name": "方砖厂69号炸酱面",
+        "district": "东城区",
+        "category": "food",
+        "rating": 5,
+        "avg_price": 35,
+        "specialty": "老北京炸酱面",
+        "tips": "胡同里的地道炸酱面"
+      },
+      {
+        "name": "护国寺小吃",
+        "district": "西城区",
+        "category": "food",
+        "rating": 4,
+        "avg_price": 30,
+        "specialty": "豆汁、驴打滚、艾窝窝",
+        "tips": "北京传统小吃一站式体验"
+      }
+    ]
+  },
+  "杭州": {
+    "city_info": {
+      "name": "杭州",
+      "description": "浙江省省会，以西湖闻名天下，素有'上有天堂，下有苏杭'之美誉。",
+      "best_season": "春秋两季（3-5月，9-11月）",
+      "local_food": "西湖醋鱼、东坡肉、龙井虾仁、叫化鸡、片儿川",
+      "avg_daily_cost": 450,
+      "must_bring": "雨伞、舒适的步行鞋、防晒霜"
+    },
+    "attractions": [
+      {
+        "name": "西湖",
+        "category": "nature",
+        "district": "西湖区",
+        "play_time": 4.0,
+        "ticket_price": 0,
+        "rating": 5,
+        "tags": ["nature", "culture", "photography", "relaxation"],
+        "best_time": "all_day",
+        "description": "世界文化遗产，中国最著名的湖泊之一，'淡妆浓抹总相宜'。",
+        "tips": "建议租自行车环湖；断桥残雪、三潭印月是必看景点；可坐游船到湖心亭。"
+      },
+      {
+        "name": "灵隐寺",
+        "category": "culture",
+        "district": "西湖区",
+        "play_time": 2.5,
+        "ticket_price": 75,
+        "rating": 5,
+        "tags": ["culture", "history"],
+        "best_time": "morning",
+        "description": "中国佛教禅宗十大古刹之一，始建于东晋，已有1700多年历史。",
+        "tips": "飞来峰石刻值得一看；早晨人少清净。"
+      },
+      {
+        "name": "河坊街",
+        "category": "culture",
+        "district": "上城区",
+        "play_time": 2.0,
+        "ticket_price": 0,
+        "rating": 4,
+        "tags": ["culture", "food", "shopping"],
+        "best_time": "evening",
+        "description": "杭州古老街区，体验杭州市井文化和小吃美食。",
+        "tips": "晚上更热闹；可买些杭州特产。"
+      },
+      {
+        "name": "千岛湖",
+        "category": "nature",
+        "district": "淳安县",
+        "play_time": 6.0,
+        "ticket_price": 130,
+        "rating": 5,
+        "tags": ["nature", "photography", "relaxation"],
+        "best_time": "all_day",
+        "description": "人工湖泊群山环抱，千岛竞秀，碧水如镜。",
+        "tips": "距杭州市区约2-3小时车程，建议安排一整天。"
+      },
+      {
+        "name": "宋城",
+        "category": "culture",
+        "district": "西湖区",
+        "play_time": 4.0,
+        "ticket_price": 300,
+        "rating": 4,
+        "tags": ["culture", "nightlife", "family"],
+        "best_time": "afternoon",
+        "description": "以宋代文化为主题的大型景区，《宋城千古情》演出精彩绝伦。",
+        "tips": "演出是必看项目，建议购买含演出票的套票。"
+      },
+      {
+        "name": "龙井村",
+        "category": "nature",
+        "district": "西湖区",
+        "play_time": 2.5,
+        "ticket_price": 0,
+        "rating": 4,
+        "tags": ["nature", "food", "relaxation"],
+        "best_time": "morning",
+        "description": "龙井茶产地，可品茶、观茶园、感受茶文化。",
+        "tips": "春季可体验采茶；农家茶宴值得一试。"
+      },
+      {
+        "name": "西溪湿地",
+        "category": "nature",
+        "district": "西湖区",
+        "play_time": 3.5,
+        "ticket_price": 80,
+        "rating": 4,
+        "tags": ["nature", "relaxation"],
+        "best_time": "morning",
+        "description": "国家级湿地公园，水网密布，芦苇飘荡，生态环境优美。",
+        "tips": "建议坐摇橹船游览；秋季芦花最美。"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "楼外楼",
+        "district": "西湖区",
+        "category": "food",
+        "rating": 4,
+        "avg_price": 200,
+        "specialty": "西湖醋鱼、东坡肉、叫化鸡",
+        "tips": "百年老店，西湖边就餐体验好"
+      },
+      {
+        "name": "知味观",
+        "district": "上城区",
+        "category": "food",
+        "rating": 4,
+        "avg_price": 80,
+        "specialty": "猫耳朵、幸福双、小笼包",
+        "tips": "杭州名小吃总店"
+      },
+      {
+        "name": "外婆家",
+        "district": "西湖区",
+        "category": "food",
+        "rating": 4,
+        "avg_price": 60,
+        "specialty": "茶香鸡、麻婆豆腐",
+        "tips": "性价比高，需排队"
+      },
+      {
+        "name": "新白鹿餐厅",
+        "district": "下城区",
+        "category": "food",
+        "rating": 4,
+        "avg_price": 55,
+        "specialty": "蛋黄鸡翅、糖醋排骨",
+        "tips": "杭州人常去的杭帮菜餐厅"
+      }
+    ]
+  }
+}
